@@ -8,6 +8,8 @@ const ajax1 = new XMLHttpRequest(),
     ajax5 = new XMLHttpRequest(), 
     uploadPath = document.getElementById("upload-path"), 
     uploadedFile = document.getElementById("uploaded-file"), 
+    message = "<div>Ukuran maksimum file yang dapat diupload adalah 200MB, jikalau melebihi ukuran batas maksimum maka proses upload akan " + 
+        "gagal</div>";
 
 // konstanta yang menyimpan alamat ke element HTML dan digunakan untuk memanipulasi tampilan halaman web
     fileManager = document.getElementById("file-manager"), 
@@ -15,7 +17,7 @@ const ajax1 = new XMLHttpRequest(),
     pathNavigations = document.getElementById("path-navigations"), 
     tools = document.getElementById("tools"), 
     filesAndFolders = document.getElementById("files-and-folders"), 
-    dialogBoxController = new DialogBoxController();
+    dialogBoxController = new DialogBoxController(),
 
 // konstanta untuk urusan navigasi antar folder (contoh: open folder, to parent folder, dll)
     previousPathButton = document.getElementById("previous-path-button"), 
@@ -170,7 +172,9 @@ function goToPreviousPath() {
 }
 
 function upload() {
-    uploadPath.value = path1;
+    uploadPath.value = "../../storage/" + path1;
+
+    dialogBoxController.show(1, message);
 
     uploadedFile.click();
 }
