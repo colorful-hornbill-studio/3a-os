@@ -32,7 +32,7 @@ me and my friends for school project.
 
 ### Usage
 
-1. Type http://localhost/3a-os in your browser search field (I recommended you to use Mozilla Firefox)
+1. Type ```http://localhost/3a-os``` in your browser search field (I recommended you to use Mozilla Firefox)
 2. You will take automatically to [login page](http://localhost/3a-os/page/sign-in)
 3. Type ```example-user``` in username field
 4. Click next button
