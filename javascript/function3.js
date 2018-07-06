@@ -1,5 +1,5 @@
 var calledAppsList = new Array();
-alert(innerHeight);
+
 const dialogBoxModel = new DialogBoxModel(), 
     dialogBoxView = new DialogBoxView(), 
     dialogBoxController = new DialogBoxController(dialogBoxModel, dialogBoxView), 
