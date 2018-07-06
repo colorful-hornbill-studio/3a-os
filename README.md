@@ -7,7 +7,15 @@ me and my friends for school project.
 
 ## Table of Contents
 
-1. [Getting Started](#getting-started)
+1. [Description](#description)
+2. [Table of Contents](#table-of-contents)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+   - [Usage][#usage]
+4. [Credits](#credits)
+5. [Special Thanks](#special-thanks)
+6. [License](#license)
 
 ## Getting Started
 
