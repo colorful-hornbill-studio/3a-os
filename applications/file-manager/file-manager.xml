@@ -53,7 +53,7 @@
             <img src="/3a-os/pictures/komponen-web/upload.svg" width="40px" height="40px">
             Upload
         </button><!--
-        --><form method="post" action="/3a-os/applications/file-manager/upload.php" enctype="multipart/form-data" 
+        --><form method="post" action="/3a-os/komponen-web/file-operations/upload.php" enctype="multipart/form-data" 
             style="display: none">
             <input type="text" id="upload-path" name="upload_path" />
             <input type="file" id="uploaded-file" oninput="this.nextElementSibling.click()" name="uploaded_file"/>
