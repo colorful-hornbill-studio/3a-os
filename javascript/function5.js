@@ -9,8 +9,8 @@ const formSignIn = document.getElementById("form-sign-in"),
     username = document.getElementById("username"), 
     password = document.getElementById("password");
 
-nextButton.addEventListener("click", nextField);
-prevButton.addEventListener("click", previousField);
+    nextButton.addEventListener("click", nextField);
+    prevButton.addEventListener("click", previousField);
 
 function checkAuthority() {
     if(localStorage.getItem("user_info")) {
