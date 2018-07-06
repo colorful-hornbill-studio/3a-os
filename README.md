@@ -12,7 +12,7 @@ me and my friends for school project.
 3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-   - [Usage][#usage]
+   - [Usage](#usage)
 4. [Credits](#credits)
 5. [Special Thanks](#special-thanks)
 6. [License](#license)
