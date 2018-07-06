@@ -34,6 +34,10 @@ me and my friends for school project.
 2. Agung Allifulah
 3. Agustinus Roya
 
+## Special Thanks
+1. [flaticon](https://www.flaticon.com)
+2. [wall.alphacoders](https://wall.alphacoders.com)
+3. [freepik](https://www.freepik.com)
 
 ## License
 
