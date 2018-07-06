@@ -7,15 +7,16 @@ me and my friends for school project.
 
 ## Getting Started
 
-### Installation
-
-1. Extract file ```3a-os.zip``` in your apache server root directory, example ```C:\xampp\htdocs```
-2. Create database ```3a_os``` in phpmyadmin
-3. Import ```3a_os.sql``` file from directory ```C:\xampp\htdocs\3a-os\sql``` to database ```3a_os```
-
 ### Prerequisites
 
 - xampp-7.2.6
+
+### Installation
+
+1. Extract file ```3a-os-master.zip``` in your apache server root directory, example ```C:\xampp\htdocs```
+2. Rename folder ```3a-os-master``` to ```3a-os```
+3. Create database ```3a_os``` in phpmyadmin
+4. Import ```3a_os.sql``` file from directory ```C:\xampp\htdocs\3a-os\sql``` to database ```3a_os```
 
 ### Usage
 
