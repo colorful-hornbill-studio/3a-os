@@ -1,0 +1,84 @@
+body {
+    background: black;
+    overflow: hidden;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+select {
+    background: #505050;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 84px;
+}
+
+@keyframes show-button {
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1.0;
+    }
+}
+
+#video-player {
+    background: black;
+}
+
+#bar {
+    display: none;
+    position: fixed;
+    width: 704px;
+}
+
+#file-name {
+    color: white;
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+    width: 704px;
+}
+
+#operations {
+    width: 704px;
+}
+
+#operations > button {
+    background: rgb(225, 225, 225);
+    border: none;
+    border-left: 4px solid grey;
+    border-radius: 6.25px;
+    border-top: 2px solid grey;
+    font-size: 1.25em;
+    font-weight: bolder;
+    height: 40px;
+    margin: 5px;
+    width: 40px;
+}
+
+input[type=number] {
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 6.25px;
+    border-right: 2px solid black;
+    height: 25px;
+    width: 50px;
+}
+
+input[type=range] {
+    height: 50px;
+    width: 50px;
+}
+
+#bar-activator {
+    height: 92.5px;
+    position: fixed;
+    width: 704px;
+}
+
+button:hover, select:hover {
+    background: #323232;
+}
