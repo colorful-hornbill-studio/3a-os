@@ -92,6 +92,10 @@ input {
     width: 50px;
 }
 
+#file-manager {
+    z-index: 1;
+}
+
 button:hover, select:hover {
     background: #323232;
 }
