@@ -40,6 +40,10 @@ me and my friends for school project.
 6. Click next button again
 7. You will take automatically to [desktop page](http://localhost/3a-os/page/desktop)
 
+### Screenshots
+
+![file-manager](screenshots-and-documentations/screenshots/file-manager.png)
+
 ## Credits
 
 1. [A Naive Dreamer](https://github.com/A-Naive-Dreamer)
