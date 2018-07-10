@@ -42,19 +42,19 @@
                     <img src="/3a-os/pictures/komponen-web/eye.svg" width="20" height="20" />
                 </button><!--
                 --><button type="button" onclick="previousVideo()">
-                    <img src="/3a-os/pictures/komponen-web/previous.svg" width="20" height="20" />
+                    <img src="/3a-os/pictures/komponen-web/rewind.svg" width="20" height="20" />
                 </button><!--
                 --><button type="button" onclick="fastBackward()">
-                    <img src="/3a-os/pictures/komponen-web/rewind.svg" width="20" height="20" />
+                    <img src="/3a-os/pictures/komponen-web/previous.svg" width="20" height="20" />
                 </button><!--
                 --><button type="button" onclick="playVideo()">
                     <img id="play-button-image" src="/3a-os/pictures/komponen-web/pause.svg" width="20" height="20" />
                 </button><!--
                 --><button type="button" onclick="fastForward()">
-                    <img src="/3a-os/pictures/komponen-web/fast-forward.svg" width="20" height="20" />
+                    <img src="/3a-os/pictures/komponen-web/skip.svg" width="20" height="20" />
                 </button><!--
                 --><button type="button" onclick="nextVideo()">
-                    <img src="/3a-os/pictures/komponen-web/skip.svg" width="20" height="20" />
+                    <img src="/3a-os/pictures/komponen-web/fast-forward.svg" width="20" height="20" />
                 </button><!--
                 --><button type="button" onclick="showVideoInfo()">
                     <img src="/3a-os/pictures/komponen-web/information.svg" width="20" height="20" />
