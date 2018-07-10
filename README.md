@@ -14,6 +14,7 @@ me and my friends for school project.
    - [Installation](#installation)
    - [Usage](#usage)
    - [Screenshots](#screenshots)
+     1. (File Manager)[#1-file-manager]
 4. [Credits](#credits)
 5. [Special Thanks](#special-thanks)
 6. [License](#license)
