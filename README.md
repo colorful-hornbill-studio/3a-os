@@ -13,6 +13,7 @@ me and my friends for school project.
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
    - [Usage](#usage)
+   - [Screenshots](#screenshots)
 4. [Credits](#credits)
 5. [Special Thanks](#special-thanks)
 6. [License](#license)
