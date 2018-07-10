@@ -42,7 +42,17 @@ me and my friends for school project.
 
 ### Screenshots
 
+#### 1. File Manager
+
 ![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/file-manager.png)
+
+#### 2. Photo Viewer
+
+![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/photo-viewer.png)
+
+#### 3. Video Player
+
+![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/video-player.png)
 
 ## Credits
 
