@@ -42,7 +42,7 @@ me and my friends for school project.
 
 ### Screenshots
 
-![file-manager](screenshots-and-documentations/screenshots/file-manager.png)
+![file-manager](screenshots-and-documentations/screenshots/file-manager.png?raw=true)
 
 ## Credits
 
