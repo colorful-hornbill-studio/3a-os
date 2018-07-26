@@ -29,14 +29,14 @@ me and my friends for school project.
 
 ### Installation
 
-1. Extract file ```3a-os-master.zip``` in your apache server root directory, example ```C:\xampp\htdocs```
+1. Extract file ```3a-os-master.zip``` in your Apache server root directory, example ```C:\xampp\htdocs```
 2. Rename folder ```3a-os-master``` to ```3a-os```
 3. Create database ```3a_os``` in phpmyadmin
 4. Import ```3a_os.sql``` file from directory ```C:\xampp\htdocs\3a-os\sql``` to database ```3a_os```
 
 ### Usage
 
-1. Type ```http://localhost/3a-os``` in your browser search field (I recommended you to use Mozilla Firefox)
+1. Type ```http://localhost/3a-os``` in your browser url field (I recommended you to use Mozilla Firefox)
 2. You will take automatically to [login page](http://localhost/3a-os/page/sign-in)
 3. Type ```example-user``` in username field
 4. Click next button
