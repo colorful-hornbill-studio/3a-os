@@ -25,7 +25,7 @@ me and my friends for school project.
 
 ### Prerequisites
 
-- xampp-7.2.6
+1. xampp-7.2.6
 
 ### Installation
 
