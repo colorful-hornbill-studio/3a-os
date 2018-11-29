@@ -2,8 +2,7 @@
 
 ## Description
 
-Web app that is functioning like general OS but with few limitations compare to native OS. This web app have file manager with basic file manager function, video player and photo viewer. This OS is still in beta version and will have a lot of update in future. This OS created by 
-me and my friends for school project.
+Web app that is functioning like general OS but with few limitations compare to native OS. This web app have file manager with basic file manager function, video player and photo viewer. This OS is still in beta version and will have a lot of update in future. This OS created by me and my friends for school project.
 
 ## Table of Contents
 
