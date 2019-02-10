@@ -1,101 +1,102 @@
-body {
-    background: #505050;
-    overflow: hidden;
-}
-
-input[type=number] {
-    border: none;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border-radius: 6.25px;
-    height: 25px;
-    margin-bottom: 11.5px;
-    width: 50px;
-}
-
 @keyframes show-button {
     from{
         opacity: 0;
     } to {
         opacity: 1.0;
     }
-} 
-
-#bar {
-    animation: show-button 1s linear;
-    background: #505050;
-    display: none;
-    height: 50px;
-    left: 0;
-    position: fixed;
-    top: 0;
-    z-index: 1;
 }
 
-#bar > button {
-    background: #505050;
-    border: none;
-    color: white;
-    font-size: 1.25em;
-    font-weight: bolder;
-    height: 50px;
-    width: 100px;
-}
+@media only screen and (min-width: 960px) {
+    body {
+        background: #505050;
+        overflow: hidden;
+    }
 
-#file-name {
-    display: block;
-    float: right;
-    font-size: 2em;
-    font-weight: bolder;
-    overflow-x: auto;
-    text-align: center;
-}
+    input[type=number] {
+        border: none;
+        border-bottom: 2px solid #000000;
+        border-right: 2px solid #000000;
+        border-radius: 6.25px;
+        height: 25px;
+        margin-bottom: 11.5px;
+        width: 50px;
+    }
 
-#bar-activator {
-    height: 50px;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
+    #bar {
+        animation: show-button 1s linear;
+        background: #505050;
+        display: none;
+        height: 50px;
+        left: 0;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
 
-#viewer {
-    margin: 0 auto;
-    overflow: auto;
-}
+    #bar > button {
+        background: #505050;
+        border: none;
+        color: #ffffff;
+        font-size: 1.25em;
+        font-weight: 700;
+        height: 50px;
+        width: 100px;
+    }
 
-#viewer > img {
-    display: block;
-    height: 100%;
-    margin: 0 auto;
-}
+    #file-name {
+        display: block;
+        float: right;
+        font-size: 2em;
+        font-weight: 700;
+        overflow-x: auto;
+        text-align: center;
+    }
 
-.nav-button {
-    animation: show-button 1s linear;
-    animation-fill-mode: forwards;
-    background: #505050;
-    border: none;
-    display: none;
-    font-size: 2em;
-    font-weight: bolder;
-    opacity: 0;
-    position: fixed;
-    top: 50px;
-    width: 50px;
-}
+    #bar-activator {
+        height: 50px;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
 
-.command-activator {
-    background: transparent;
-    position: fixed;
-    top: 50px;
-    width: 50px;
-}
+    #viewer {
+        overflow: auto;
+    }
 
-#file-manager {
-    z-index: 1;
-}
+    #viewer > img {
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+    }
 
-button:hover, select:hover {
-    background: #323232;
+    .nav-button {
+        animation: show-button 1s linear;
+        animation-fill-mode: forwards;
+        background: #505050;
+        border: none;
+        display: none;
+        font-size: 2em;
+        font-weight: 700;
+        opacity: 0;
+        position: fixed;
+        top: 50px;
+        width: 50px;
+    }
+
+    .command-activator {
+        background: transparent;
+        position: fixed;
+        top: 50px;
+        width: 50px;
+    }
+
+    #file-manager {
+        z-index: 1;
+    }
+
+    button:hover, select:hover {
+        background: #323232;
+    }
 }

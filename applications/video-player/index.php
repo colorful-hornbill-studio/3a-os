@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en-us">
+    <head lang="En-US">
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
             Video Player
         </title>
-        <link rel="stylesheet" type="text/css" href="/3a-os/style/style1.css" />
-        <link rel="stylesheet" type="text/css" href="/3a-os/komponen-web/open-file/style.css" />
-        <link rel="stylesheet" type="text/css" href="/3a-os/applications/video-player/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../stylesheets/style.css" />
+        <link rel="stylesheet" type="text/css" href="./style.css" />
     </head>
     <body onload="setFileManager(location.pathname, 'video'); setVideoPlayer()">
         <?php
             $path = "";
 
-            echo "<script>" . 
-                    "var isVideoSet = false;" . 
+            echo "<script>" .
+                    "var isVideoSet = false;" .
                 "</script>";
 
             if(isset($_GET["file_name"]) && isset($_GET["directory"])) {
@@ -25,7 +24,7 @@
                 $path = $directory . $video;
             }
         ?>
-        <div id="bar" onmouseenter="this.style.display = 'block'" 
+        <div id="bar" onmouseenter="this.style.display = 'block'"
             onmouseleave="this.nextElementSibling.style.display = 'block'; this.style.display = 'none'">
             <div id="file-name"><?php echo file_exists($path) ? $video : ''; ?></div>
             <div id="operations">
@@ -78,29 +77,29 @@
             require "../../komponen-web/open-file/file-manager.xml";
         ?>
         <?php
-            echo "<script>" . 
-                "const videoPlayer = document.getElementById('video-player'), " . 
-                    "playButtonImage = document.getElementById('play-button-image');" . 
+            echo "<script>" .
+                "const videoPlayer = document.getElementById('video-player'), " .
+                    "playButtonImage = document.getElementById('play-button-image');" .
                 "var isPlay = true;";
 
             if(file_exists($path)) {
-                echo "const video = document.createElement('video'), " . 
-                        "source = document.createElement('source');" .  
-                        "video.autoplay = true;" . 
-                        "video.addEventListener('play', function() {" . 
+                echo "const video = document.createElement('video'), " .
+                        "source = document.createElement('source');" .
+                        "video.autoplay = true;" .
+                        "video.addEventListener('play', function() {" .
                             "playButtonImage.src = '/3a-os/pictures/komponen-web/pause.svg';" .
-                            "isPlay = true;" . 
-                        "});" . 
-                        "video.addEventListener('pause', function() {" . 
+                            "isPlay = true;" .
+                        "});" .
+                        "video.addEventListener('pause', function() {" .
                             "playButtonImage.src = '/3a-os/pictures/komponen-web/play-button2.svg';" .
-                            "isPlay = false;" . 
-                        "});" . 
-                        "video.controls = true;" . 
-                        "video.width = innerWidth;" . 
-                        "video.height = innerHeight - 4.5;" . 
-                        "source.src= '" . $path . "';" . 
-                        "videoPlayer.appendChild(video);" . 
-                        "video.appendChild(source);" . 
+                            "isPlay = false;" .
+                        "});" .
+                        "video.controls = true;" .
+                        "video.width = innerWidth;" .
+                        "video.height = innerHeight - 4.5;" .
+                        "source.src= '" . $path . "';" .
+                        "videoPlayer.appendChild(video);" .
+                        "video.appendChild(source);" .
                         "isVideoSet = true;";
             }
 

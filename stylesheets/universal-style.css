@@ -1,0 +1,155 @@
+@media only screen and (min-width: 960px) {
+	* {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-size: 1em;
+	}
+
+	h1 {
+		font-family: 'Times New Roman', serif;
+		font-size: 2.25em;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.dialog-box {
+		position: fixed;
+		width: 500px;
+		z-index: 2;
+	}
+
+	#confirm-box > .header {
+		background: #0000ff;
+	}
+
+	.alert-box > .header {
+		background: #ff0000;
+	}
+
+	.header {
+		color: #ffffff;
+		font-weight: 700;
+		overflow: hidden;
+	}
+
+	.header > span {
+		display: inline-block;
+		padding: 10px;
+	}
+
+	.header > .close-dialog-box-button {
+		background: transparent;
+		border-radius: 5px;
+		border-style: none;
+		color: #ffffff;
+		float: right;
+		font-weight: 700;
+		height: 40px;
+		padding: 5px;
+		width: 40px;
+	}
+
+	.header > .close-dialog-box-button:hover {
+		background: #dc0000;
+	}
+
+	.body {
+		background: #ffffff;
+		width: 500px;
+	}
+
+	.icon {
+		box-sizing: border-box;
+		float: left;
+		padding: 10px;
+		width: 200px;
+	}
+
+	.icon > img {
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.content-container {
+		height: 164px;
+		float: right;
+		overflow-x: hidden;
+		overflow-y: auto;
+		width: 300px;
+	}
+
+	.alert > div {
+		background: #ff0080;
+		border-bottom: 3px solid #ff0000;
+		border-left: 6px solid #ff0000;
+		border-right: 3px solid #ff0000;
+		border-top: 6px solid #ff0000;
+		border-radius: 5px;
+		box-sizing: border-box;
+		color: #ff0000;
+		font-weight: 700;
+		margin: 20px;
+		padding: 3px;
+		width: 260px;
+	}
+
+	#info > div {
+		background: #00bfff;
+		border-bottom: 3px solid #0000ff;
+		border-left: 6px solid #0000ff;
+		border-right: 3px solid #0000ff;
+		border-top: 6px solid #0000ff;
+		border-radius: 5px;
+		box-sizing: border-box;
+		color: #0000ff;
+		font-weight: 700;
+		margin: 20px;
+		padding: 3px;
+		width: 260px;
+	}
+
+	#confirm {
+		overflow: hidden;
+	}
+
+	#confirm > button {
+		background: #0000ff;
+		border-radius: 23.5px;
+		border-style: none;
+		color: #ffffff;
+		font-weight: 700;
+		height: 47px;
+		margin: 2.5px 0 22.5px;
+		width: 100px;
+	}
+
+	#confirm > button:first-child {
+		margin: 0 20px 0 40px;
+	}
+
+	a:visited {
+		color: #0000ff;
+	}
+
+	button:hover, a:hover {
+		cursor: pointer;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	#confirm > button:hover {
+		background: #ff0000;
+	}
+}

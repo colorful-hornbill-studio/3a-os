@@ -1,0 +1,95 @@
+@keyframes show-field {
+    from {
+        width: 0;
+    } to {
+        width: 300px;
+    }
+}
+
+@keyframes show-button {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 0.75;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    a {
+        color: #000066;
+        display: block;
+        font-size: 1em;
+        font-weight: 700;
+        position: absolute;
+        text-decoration: none;
+    }
+
+    #form-sign-up {
+        background: #4b4b4b url("/3a-os/pictures/komponen-web/485508.jpg") no-repeat center;
+        background-size: cover;
+        display: none;
+    }
+
+    #fields {
+        height: 60px;
+        overflow: hidden;
+        position: absolute;
+        width: 300px;
+    }
+
+    #email, #username, #password {
+        display: none;
+    }
+
+    input[type=text], input[type=email], input[type=password] {
+        animation: show-field 0.5s linear;
+        background: rgba(225, 225, 225, 0.75);
+        border-color: #4e4e4e;
+        border-radius: 10px;
+        border-style: none solid solid none;
+        border-width: 5px;
+        box-sizing: border-box;
+        color: #ffffff;
+        font-size: 1.6em;
+        font-weight: 700;
+        height: 60px;
+        padding: 5px;
+        width: 300px;
+    }
+
+    #prev-button, #next-button {
+        animation: show-button 1s linear;
+        background: rgba(225, 225, 225, 0.75);
+        border-radius: 25px;
+        border-style: none;
+        color: #ffffff;
+        display: none;
+        font-size: 1.6em;
+        font-weight: 700;
+        height: 50px;
+        position: absolute;
+        width: 50px;
+    }
+
+    #people {
+        background: #646464;
+        border-radius: 75px;
+        display: block;
+        height: 100px;
+        padding: 25px;
+        position: absolute;
+        width: 100px;
+    }
+
+    input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+        color: #4e4e4e;
+    }
+
+    a:visited {
+        color: #000066;
+    }
+
+    button:hover {
+        background: rgba(175, 175, 175, 0.75);
+    }
+}
