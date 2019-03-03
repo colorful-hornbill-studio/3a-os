@@ -2,7 +2,7 @@
 
 ## Description
 
-Web app that is functioning like general OS but with few limitations compare to native OS. This web app have file manager with basic file manager function, video player and photo viewer. This OS is still in beta version and will have a lot of update in future. This OS created by me and my friends for school project.
+Web app that is functioning like general OS but with few limitations compare to native OS. This web app have file manager with basic file manager function, video player and photo viewer. This OS is still in beta version and will have a lot of update in future. This OS created by me for school project.
 
 ## Table of Contents
 
@@ -12,10 +12,11 @@ Web app that is functioning like general OS but with few limitations compare to 
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
    - [Usage](#usage)
-   - [Screenshots](#screenshots)
-     - [File Manager](#1-file-manager)
-     - [Photo Viewer](#2-photo-viewer)
-     - [Video Player](#3-video-player)
+   - [Previews](#previews)
+     - [Screenshots](#screenshots)
+       - [File Manager](#1-file-manager)
+       - [Photo Viewer](#2-photo-viewer)
+       - [Video Player](#3-video-player)
 4. [Credits](#credits)
 5. [Special Thanks](#special-thanks)
 6. [License](#license)
@@ -43,25 +44,25 @@ Web app that is functioning like general OS but with few limitations compare to 
 6. Click next button again
 7. You will take automatically to [desktop page](http://localhost/3a-os/page/desktop)
 
-### Screenshots
+### Previews
 
-#### 1. File Manager
+#### Screenshots
+
+##### 1. File Manager
 
 ![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/file-manager.png)
 
-#### 2. Photo Viewer
+##### 2. Photo Viewer
 
 ![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/photo-viewer.png)
 
-#### 3. Video Player
+##### 3. Video Player
 
 ![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/video-player.png)
 
 ## Credits
 
 1. [A Naive Dreamer](https://github.com/A-Naive-Dreamer)
-2. Agung Allifulah
-3. Agustinus Roya
 
 ## Special Thanks
 1. [flaticon](https://www.flaticon.com)
