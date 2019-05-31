@@ -62,6 +62,7 @@ Web app that is functioning like general OS but with few limitations compare to 
 1. [A Naive Dreamer](https://github.com/A-Naive-Dreamer)
 
 ## Special Thanks
+
 1. [flaticon](https://www.flaticon.com)
 2. [wall.alphacoders](https://wall.alphacoders.com)
 3. [freepik](https://www.freepik.com)
