@@ -9,7 +9,7 @@ Web app that is functioning like general OS but with few limitations compare to 
 1. [Description](#description)
 2. [Table of Contents](#table-of-contents)
 3. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
+   - [Requirements](#requirements)
    - [Installation](#installation)
    - [Usage](#usage)
    - [Screenshots](#screenshots)
@@ -22,7 +22,7 @@ Web app that is functioning like general OS but with few limitations compare to 
 
 ## Getting Started
 
-### Prerequisites
+### Requirements
 
 1. XAMPP 7.2.6
 
