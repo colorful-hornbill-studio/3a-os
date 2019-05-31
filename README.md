@@ -12,11 +12,10 @@ Web app that is functioning like general OS but with few limitations compare to 
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
    - [Usage](#usage)
-   - [Previews](#previews)
-     - [Screenshots](#screenshots)
-       - [File Manager](#1-file-manager)
-       - [Photo Viewer](#2-photo-viewer)
-       - [Video Player](#3-video-player)
+   - [Screenshots](#screenshots)
+     1. [File Manager](#1-file-manager)
+     2. [Photo Viewer](#2-photo-viewer)
+     3. [Video Player](#3-video-player)
 4. [Credits](#credits)
 5. [Special Thanks](#special-thanks)
 6. [License](#license)
@@ -44,19 +43,17 @@ Web app that is functioning like general OS but with few limitations compare to 
 6. Click next button again
 7. You will take automatically to [desktop page](http://localhost/3a-os/page/desktop)
 
-### Previews
+### Screenshots
 
-#### Screenshots
-
-##### 1. File Manager
+#### 1. File Manager
 
 ![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/file-manager.png)
 
-##### 2. Photo Viewer
+#### 2. Photo Viewer
 
 ![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/photo-viewer.png)
 
-##### 3. Video Player
+#### 3. Video Player
 
 ![file-manager](https://justanaivedreamer.files.wordpress.com/2018/07/video-player.png)
 
