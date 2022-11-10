@@ -60,6 +60,8 @@ Web app that is functioning like general OS but with few limitations compare to 
 ## Credits
 
 1. [Atallabela Yosua](https://github.com/A-Naive-Dreamer)
+2. Agung Alifullah
+3. Agustinus Roya
 
 ## Special Thanks
 
